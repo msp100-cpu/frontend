@@ -1,0 +1,26 @@
+{
+  "title": "Its12 Giftworld | Gift your loved ones",
+  "titleTemplate": "%s - Its12 Giftworld",
+  "description": "Gift your loved ones",
+  "openGraph": {
+    "title": "Its12 Giftworld | Gift your loved ones",
+    "description": "Description I Gift your loved ones",
+    "type": "website",
+    "locale": "en_IE",
+    "url": "https://its12-nextjs.vercel.app/",
+    "site_name": "Its12 Giftworld",
+    "images": [
+      {
+        "url": "/assets/full_logo.png",
+        "width": 800,
+        "height": 600,
+        "alt": "Its12 Giftworld Image"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@its12",
+    "site": "@its12",
+    "cardType": "summary_large_image"
+  }
+}

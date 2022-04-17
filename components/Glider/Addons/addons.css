@@ -1,0 +1,20 @@
+.arrowdiv {
+  height: calc(100% - 20px);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowdiv__one {
+  top: 0;
+  left: 0;
+}
+.arrowdiv__two {
+  top: 0;
+  right: 0;
+}
+
+.shadow-effect {
+  box-shadow: 0 0 50px #ccc;
+}

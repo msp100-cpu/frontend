@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+  font-family: "Lato", sans-serif;
+  font-smooth: always;
+}
+
+.mobile-show {
+  display: none !important;
+}
+@media screen and (min-width: 480px) {
+  .mobile-show {
+    display: none !important;
+  }
+}
+
+.only-mobile {
+  display: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .only-mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:max-w-8xl {
+    max-width: 100rem /* 1280px */;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    cursor: ew-resize;
+    background: #fff;
+    box-shadow: -405px 0 0 400px #605e5c;
+    border-radius: 50%;
+  }
+}
+
+.arrowdiv {
+  height: calc(100% - 20px);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowdiv__one {
+  top: 0;
+  left: 0;
+}
+.arrowdiv__two {
+  top: 0;
+  right: 0;
+}
+
+.shadow-effect {
+  box-shadow: 2px 0 15px rgb(221, 221, 221);
+}
+
+.shadow-box {
+  /* box-shadow: 0 0 50px rgb(238, 238, 238); */
+}
+
+.shadow-box:hover {
+  box-shadow: 0 10px 40px rgb(207, 207, 207, 0.6);
+}
